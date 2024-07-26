@@ -1,0 +1,111 @@
+:host {
+    position: sticky;
+    top: 0;
+}
+
+#nav {
+    width: 100dvw;
+    overflow: hidden;
+    transition: 0.8s;
+}
+
+.onTopShadow {
+    box-shadow: 0 0.5vw 10px var(--dark-red-color);
+    height: 7.4vw;
+}
+
+
+
+
+.nav-box {
+    padding: 2vw 0;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+}
+
+.nav-box-onTop {
+    background: linear-gradient(70deg, var(--dark-red-color), #c24556);
+    height: 100dvh;
+    padding: 0;
+    padding-top: 1.5vw;
+}
+
+
+
+
+nav {
+    background-color: var(--light-color);
+    border: 0.2vw solid var(--dark-red-color);
+    border-radius: 3vw;
+    box-shadow: -0.4vw 0.4vw 10px #310307,
+                0.4vw -0.4vw 10px #e26676,
+                inset 1vw -1vw 18px #f3e6d4,
+                inset -1vw 1vw 15px #786e60;
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+    gap: 1vw;
+    width: min-content;
+    height: min-content;
+    transition: 0.8s;
+}
+
+.nav-onTop {
+    background-color: transparent;
+    border: 0 solid var(--dark-red-color);
+    box-shadow: none;
+    gap: 20vw;
+    padding: 0;
+}
+
+
+
+.link-box {
+    flex-grow: 1;
+    transition: 0.8s;
+    border-radius: 2.5vw;
+    overflow: hidden;
+}
+
+.link-box-onTop {
+    background-color: var(--light-color);
+    border: 0.2vw solid var(--dark-red-color);
+    border-radius: 3vw;
+    box-shadow: -0.4vw 0.4vw 10px #310307,
+                0.4vw -0.4vw 10px #e26676;
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2.5vw;
+    padding: 2vw 2vw;
+    display: block;
+    transition: 0.8s;
+}
+
+.link:hover {
+    transition: 0.4s;
+    box-shadow: inset 0.6vw -0.6vw 18px #f3e6d4,
+                inset -0.6vw 0.6vw 15px #786e60;
+    text-shadow: 0.1vw 0 var(--dark-red-color);
+    color: var(--dark-red-color);
+}
+
+.link-onTop {
+    padding: 1vw 1.5vw;
+    font-size: 1.7vw;
+}
+
+.link-onTop:hover {
+    box-shadow: inset 0.3vw -0.3vw 8px #f3e6d4,
+                inset -0.3vw 0.3vw 5px #786e60;
+    text-shadow: 0.06vw 0 var(--dark-red-color);
+}

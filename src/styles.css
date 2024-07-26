@@ -1,9 +1,8 @@
 :root {
-    --white-color: #D8DBDE;
-    --light-gold-color: #B48A63;
-    --gold-color: #573111;
-    --gray-color: #6A6B6E;
-    --dark-color: #302C2B;
+    --white-color: #E8D8C4;
+    --light-color: #C7B7A3;
+    --red-color: #6D2932;
+    --dark-red-color: #561C24;
 }
 
 * {
@@ -15,7 +14,6 @@
 }
 
 body {
-    width: 100%;
     background-color: var(--white-color);
 }
 

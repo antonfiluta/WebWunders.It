@@ -1,0 +1,11 @@
+<div id="nav" [class.onTopShadow]="isOnTop">
+  <div class="nav-box" [class.nav-box-onTop]="isOnTop">
+    <nav [class.nav-onTop]="isOnTop">
+        @for (obj of array; track obj) {
+            <div class="link-box" [class.link-box-onTop]="isOnTop">
+                <a [routerLink]="[obj.link]" [class.link-onTop]="isOnTop" class="link">{{obj.name}}</a>
+            </div>
+        }
+    </nav>
+  </div>
+</div>
