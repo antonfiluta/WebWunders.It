@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --white-color: #D8DBDE;
+    --light-gold-color: #B48A63;
+    --gold-color: #573111;
+    --gray-color: #6A6B6E;
+    --dark-color: #302C2B;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--dark-color);
+    font-family: GaramB;
+}
+
+body {
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+@font-face {
+    font-family: "GaramL"; 
+    src: url("/cormorantgaramond/GaramL.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "GaramB"; 
+    src: url("/cormorantgaramond/GaramB.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
