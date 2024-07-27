@@ -16,11 +16,11 @@ export class NavComponent {
       },
       {
         name: 'Projects',
-        link: 'contact'
+        link: 'projects'
       },
       {
         name: 'Contacts',
-        link: 'projects'
+        link: 'contact'
       }
     ]
 

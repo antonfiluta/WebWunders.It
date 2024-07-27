@@ -3,10 +3,9 @@
     flex-direction: column;
     gap: 4vw;
     padding-bottom: 4vw;
-    height: 900vh;
 }
 
-div {
+.text-box {
     width: 80vw;
     background-color: var(--light-color);
     border: 0.2vw solid var(--dark-red-color);
@@ -32,10 +31,13 @@ p {
     text-align: justify;
     text-indent: 1.5vw;
     font-family: GaramL;
+}
+
+.decorateP {
     border-bottom: 2px dotted black;
 }
 
-p:last-child {
+.decorateP:last-child {
     border-bottom: none;
     padding-bottom: 0;
 }
