@@ -1,0 +1,15 @@
+.contact-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4vw;
+    padding-left: 4vw;
+}
+
+.icon {
+    width: 2.5vw;
+}
+
+p.contact-text {
+    margin: 0;
+    padding: 0;
+}

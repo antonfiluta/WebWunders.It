@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject} from '@angular/core';
 import { TextBaseService } from '../../data/bases/text-base.service';
 
 @Component({
@@ -6,14 +6,17 @@ import { TextBaseService } from '../../data/bases/text-base.service';
   standalone: true,
   imports: [],
   templateUrl: './projects-page.component.html',
-  styleUrl: '../home-page/home-page.component.css'
+  styleUrls: [
+    '../home-page/home-page.component.css',
+    'projects-page.component.css'
+  ]
 })
 export class ProjectsPageComponent {
   textBaseService = inject(TextBaseService)
     
-  texts: any = []
+  information: any = []
 
   constructor() {
-    this.texts = this.textBaseService.getProjectsText()
-}
+    this.information = this.textBaseService.getProjectsText()
+  }
 }

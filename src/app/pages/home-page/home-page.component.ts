@@ -16,5 +16,5 @@ export class HomePageComponent {
 
     constructor() {
       this.texts = this.textBaseService.getAboutText()
-  }
+    }
 }

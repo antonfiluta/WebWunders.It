@@ -1,1 +1,16 @@
-<div class="text-box"></div>
+@for (obj of information; track obj) {
+    <div class="text-box">
+        <h2>{{obj.nameOfPage}}</h2>
+        @for (line of obj.textArray; track line) {
+            <p [class.decorateP]="obj.textClass">{{line}}</p>
+        }
+        <div class="image-wrapper">
+            <a [href]="'https:/' + obj.nameOfPage">
+                <div class="imageBox">
+                    <div class="linkToSite"><span class="linkText">Visit {{obj.nameOfPage}}</span></div>
+                    <img [src]="obj.projectImg" [alt]="obj.nameOfPage" class="siteImg">
+                </div>
+            </a>
+        </div>
+    </div>
+}

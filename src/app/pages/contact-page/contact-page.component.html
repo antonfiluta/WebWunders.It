@@ -1,1 +1,9 @@
-<p>contact-page works!</p>
+<div class="text-box ">
+   <h2>{{contacts.nameOfPage}}</h2>
+   @for (contact of contacts.inform; track contact) {
+      <div class="contact-box">
+        <img [src]="'icons/' + contact.iconUrl + '.png'" [alt]="" class="icon">
+        <p class="contact-text">{{contact.text}}</p>
+      </div>
+   }
+</div>
