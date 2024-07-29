@@ -29,7 +29,7 @@ p {
     font-size: 4.2vw;
     line-height: 3.5vw;
     text-shadow: -0.11vw 0.11vw var(--dark-red-color),
-                 0.04vw -0.04vw var(--white-color);
+                 0.06vw -0.06vw var(--white-color);
     letter-spacing: 0.15vw;
     font-weight: bold;
 }
